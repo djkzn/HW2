@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main()
+int
+main()
 {
   std::cout << "Print ur name: " << std::endl;
   std::string name;
