@@ -1,9 +1,9 @@
 #include <iostream>
-using namespace std;  // плохой стиль (пока оставляем)
+#include <string>
 
 int main() {
-    string name;
-    cin >> name;
-    cout << "Hello world from @" << name << endl;
+    std::string name;
+    std::cin >> name;
+    std::cout << "Hello world from @" << name << std::endl;
     return 0;
 }
